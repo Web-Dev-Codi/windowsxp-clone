@@ -3,10 +3,16 @@ body {
 	padding: 0;
 	margin: 0;
 	height: 100svh;
-	width: 100svw;
+	width: 100%;
 	box-sizing: border-box;
+}
+
+.main {
 	background-image: url("/images/bliss.jpg");
 	background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
 	background-size: cover;
 }
 
@@ -15,6 +21,60 @@ body {
 	bottom: 0;
 	right: 0;
 	left: 0;
-	background-color: blue;
+	background-color: #295eff;
 	width: 100%;
+	height: 25px;
+}
+
+.start-button {
+	width: 100px;
+	height: 25px;
+	background-color: #3e9e3f;
+}
+
+
+.start-menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  left: 0;
+  display: none;
+  height: 450px;
+  width: 375px;
+  background-color: aqua;
+}
+
+.top-menu-element {
+  height: 55px;
+  background-color: #1567cf;
+}
+
+.middle-menu-element {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: chartreuse;
+  height: 370px;
+}
+
+.middle-menu-left-element {
+  background-color: #ffffff;
+  width: 50%;
+  height: 100%;
+}
+
+.middle-menu-right-element {
+  background-color: #d3e5fa;
+  width: 50%;
+  height: 100%;
+}
+
+.bottom-menu-element {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 75px;
+  width: 100%;
+  background-color: #2d7de2;
 }
