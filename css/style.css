@@ -1,3 +1,25 @@
+:root {
+	--main-blue-color: #0f61cc;
+	--shadow-color: #6aa4e5;
+	--border-color: #2761c7;
+	--hover-color: #316ac5;
+	--arrow-color: #45c445;
+	--text-color: #fefefe;
+	--blue-color-one: #1162cc;
+	--blue-color-two: #0d60cb;
+	--blue-color-three: #1063cd;
+	--blue-color-four: #2072d9;
+	--blue-color-five: #2d7ee1;
+	--blue-color-six: #3887e7;
+	--blue-color-seven: #408ce8;
+	--blue-color-eight: #438fea;
+	--blue-left-line: #a2c5f1;
+	--blue-light: #d3e5fa;
+	--main-font-color: #858586;
+	--light-font-color: #909090;
+	--light-orange-color: #f59c48;
+}
+
 html,
 body {
 	padding: 0;
@@ -10,10 +32,24 @@ body {
 .main {
 	background-image: url("/images/bliss.jpg");
 	background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	background-attachment: fixed;
 	background-size: cover;
+}
+
+.profile-image {
+  
+}
+
+.profile-backdrop {
+  background-color: var(--blue-light);
+  border: 2px solid rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+	border-radius: 10px;
+  padding: 1px;
 }
 
 .start-bar {
@@ -32,49 +68,55 @@ body {
 	background-color: #3e9e3f;
 }
 
-
 .start-menu {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  bottom: 0;
-  left: 0;
-  display: none;
-  height: 450px;
-  width: 375px;
-  background-color: aqua;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	bottom: 0;
+	left: 0;
+	display: none;
+	height: 450px;
+	width: 375px;
+	background-color: aqua;
+	border: 1px solid red;
+	border-radius: 10px 10px 0 0;
 }
 
 .top-menu-element {
-  height: 55px;
-  background-color: #1567cf;
+  display: flex;
+  align-items: center;
+  line-height: 0;
+	height: 65px;
+	background-color: #1567cf;
+	border: 1px solid red;
+	border-radius: 10px 10px 0 0;
 }
 
 .middle-menu-element {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  background-color: chartreuse;
-  height: 370px;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: chartreuse;
+	height: 370px;
 }
 
 .middle-menu-left-element {
-  background-color: #ffffff;
-  width: 50%;
-  height: 100%;
+	background-color: #ffffff;
+	width: 50%;
+	height: 100%;
 }
 
 .middle-menu-right-element {
-  background-color: #d3e5fa;
-  width: 50%;
-  height: 100%;
+	background-color: #d3e5fa;
+	width: 50%;
+	height: 100%;
 }
 
 .bottom-menu-element {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 75px;
-  width: 100%;
-  background-color: #2d7de2;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 75px;
+	width: 100%;
+	background-color: #2d7de2;
 }

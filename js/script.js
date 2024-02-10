@@ -11,4 +11,4 @@ const close = () => {
 };
 
 startButton.addEventListener("click", open);
-startButton.addEventListener("blur", close);
+// startButton.addEventListener("blur", close);
